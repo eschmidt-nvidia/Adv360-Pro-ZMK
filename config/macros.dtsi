@@ -1,3 +1,9 @@
+macro_alttab: macro_alttab{
+compatible = "zmk,behavior-macro";
+label = "macro_alttab";
+#binding-cells = <0>;
+bindings = <&kp LA(TAB)>;
+};
 macro_ctrlshftp: macro_ctrlshftp{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlshftp";
